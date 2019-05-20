@@ -1,0 +1,13 @@
+<div class="container">
+  <blockquote class="blockquote">
+    <p class="mb-0"><%= @params[:question] %></p>
+    <footer class="blockquote-footer">You</footer>
+  </blockquote>
+
+  <blockquote class="blockquote">
+    <p class="mb-0"><%= @answer %></p>
+    <footer class="blockquote-footer">Your coach</footer>
+  </blockquote>
+
+  <%= link_to "Ask more questions", "/ask" %>
+</div>
